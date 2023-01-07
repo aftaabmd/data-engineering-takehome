@@ -19,7 +19,7 @@ Fork the github repo and Once you've completed the challenge create a PR.
  2. Create a pipeline which extract the messages from kafka and load it into raw layer using spark or flink or beam.
  3. Create a pipeline for data quality checks and transform the data into curated schema using airflow and spark as a batch job.
 
-For this exercise sample data has been provided under [repo](https://github.com/Mistplay/data-engineering-takehome/blob/cb8727bc9716b68eaa7c489b5aae02867325678b/sample_data).Once the data loaded work on the Analytics task mentioned below.
+For this exercise sample data has been provided under [repo](sample_data).Once the data loaded work on the Analytics task mentioned below.
 ## Analytical Tasks
 
  1. Write down the data quality issues with the datasets provided and the steps performed to clean (if any).
