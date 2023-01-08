@@ -22,7 +22,7 @@ task1 = BashOperator(
      task_id='data_insight',
      bash_command='/opt/spark-2.3.1-bin-hadoop2.7/bin/spark-submit '
                   '--master local[*] '
-                  '/usr/local/airflow/dags/src/spark_consume_data/insights.py',
+                  '/usr/local/airflow/dags/src/spark_consume_data/Analytics.py',
      dag=dag,
         )
 
